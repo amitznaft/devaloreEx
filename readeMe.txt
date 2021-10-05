@@ -1,0 +1,20 @@
+Instructions how to run the code: 
+
+Install npm dependencies:
+npm Install
+
+Setting up environment:
+
+1. create file named .env and add your MongoDB Atlas uri as:
+    ATLAS_URI={your MongoDB ATLAS connection string}
+
+How to run:
+npm start
+
+server functionality:
+ (POST /api/pet)
+ (DELETE /api/pet/:petId)
+ (GET /api/petS/?page=page&limit=limit)
+ (GET /api/calculates/pets-ages)
+
+
